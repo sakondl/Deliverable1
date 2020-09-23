@@ -19,7 +19,7 @@ namespace Deliverable1
             
 	        bool containsAtLeastOneUppercase = password.Any(char.IsUpper);			
             bool containsAtLeastOneLowercase = password.Any(char.IsLower);			
-            bool containsSymbol = password.Any(char.IsSymbol);      
+            bool containsSymbol = password.contains(char.IsSymbol);      
 		
 		{
 			
