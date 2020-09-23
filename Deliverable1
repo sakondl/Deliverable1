@@ -1,0 +1,36 @@
+using System;
+
+namespace Deliverable1
+{
+	class Program
+	{
+		static void Main(string[] args)
+		
+		{
+		    int minLength = 7;
+		    int maxLength = 12;
+            string lowercase = "qwertyuiopasdfghjklzxcvbnm";
+            string uppercase = "QWERTYUIOPASDFGHJKLZXCVBNM";
+            char symbol = "!";
+            
+            string password;
+			Console.WriteLine ("Please enter your password");
+			password = Console.ReadLine();
+            
+	        bool containsAtLeastOneUppercase = password.Any(char.IsUpper);			
+            bool containsAtLeastOneLowercase = password.Any(char.IsLower);			
+            bool containsSymbol = password.Any(char.IsSymbol);      
+		
+		{
+			
+            if (password.Length >= 7 && password.Length <=12 && containsatleastoneuppercase && containsatleastonelowercase && containsSymbol)
+
+             Console.WriteLine("Password valid and accepted");
+            else 
+
+            Console.WriteLine("Error");
+		}
+}		
+		
+		
+	
