@@ -21,7 +21,7 @@ namespace Deliverable1
             bool containsAtLeastOneLowercase = password.Any(char.IsLower);			
             bool containsSymbol = password.Contains(char.IsSymbol);      
 		
-		{
+	
 			
             if (password.Length >= 7 && password.Length <=12 && containsatleastoneuppercase && containsatleastonelowercase && containsSymbol)
 
@@ -29,7 +29,7 @@ namespace Deliverable1
             else 
 
             Console.WriteLine("Error");
-		}
+	}
 }		
 		
 		
